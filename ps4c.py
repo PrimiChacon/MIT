@@ -186,7 +186,7 @@ class EncryptedSubMessage(SubMessage):
         for permutations in multiple_permutations:
             multiple_dict = message.build_transpose_dict(permutations)
             multiple_message = (message.apply_transpose(multiple_dict))
-            if is_word(word_list,multiple_message) == True:
+            if is_word(self.valid_words,multiple_message) == True:
                 return multiple_message
 
 

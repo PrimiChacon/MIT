@@ -272,9 +272,9 @@ class CiphertextMessage(Message):
 if __name__ == '__main__':
 
 #    #Example test case (PlaintextMessage)
-    plaintext = PlaintextMessage('hello', 2)
-    print('Expected Output: jgnnq')
-    print('Actual Output:', plaintext.get_message_text_encrypted())
+#    plaintext = PlaintextMessage('hello', 2)
+#    print('Expected Output: jgnnq')
+#    print('Actual Output:', plaintext.get_message_text_encrypted())
 #
 #    #Example test case (Message)
     ciphertext = CiphertextMessage('jgnnq')
@@ -291,8 +291,8 @@ if __name__ == '__main__':
     #TODO: best shift value and unencrypted story 
     
     #Message encrytation
-    text = ('hello, day')
-    shift = 2
-    build_shift_dict = Message.build_shift_dict(text,shift)
-    result = (Message.apply_shift(text,shift))
-    print (result)
+#    text = ('hello, day')
+#    shift = 2
+#    build_shift_dict = Message.build_shift_dict(text,shift)
+#    result = (Message.apply_shift(text,shift))
+#    print (result)
